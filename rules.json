@@ -1,0 +1,87 @@
+{
+  "rules": [
+    {
+      "supplier": [
+        "advice consultant ltd"
+      ],
+      "min_amount": 1000.0,
+      "max_amount": 50000.0,
+      "assign_category": "consultancy",
+      "transaction_type": "Pay In (Money In)"
+    },
+    {
+      "supplier": [
+        "bwy"
+      ],
+      "min_amount": 1000.0,
+      "max_amount": 50000.0,
+      "assign_category": "BMY Shop only",
+      "transaction_type": "Pay In (Money In)"
+    },
+    {
+      "supplier": [
+        "american express www"
+      ],
+      "min_amount": 1000.0,
+      "max_amount": 50000.0,
+      "assign_category": "stuff",
+      "transaction_type": "Pay Out (Money Out)"
+    },
+    {
+      "supplier": [
+        "yes group"
+      ],
+      "min_amount": 100.0,
+      "max_amount": 10000.0,
+      "from_date": "2020-09-07",
+      "to_date": "2020-10-29",
+      "assign_category": "Travel",
+      "transaction_type": "Pay Out (Money Out)"
+    },
+    {
+      "supplier": [
+        "yes group"
+      ],
+      "min_amount": 100.0,
+      "max_amount": 10000.0,
+      "from_date": "2020-09-07",
+      "to_date": "2020-12-30",
+      "assign_category": "Shopping",
+      "transaction_type": "Pay Out (Money Out)"
+    },
+    {
+      "supplier": [
+        "yes group",
+        "contactless shell",
+        "american express"
+      ],
+      "min_amount": 100.0,
+      "max_amount": 10000.0,
+      "from_date": "2020-07-09",
+      "to_date": "2020-12-19",
+      "assign_category": "Banking",
+      "transaction_type": "Pay Out (Money Out)"
+    },
+    {
+      "supplier": [
+        "bwy"
+      ],
+      "max_amount": 12000.0,
+      "from_date": "2018-07-21",
+      "to_date": "2029-07-21",
+      "assign_category": "BMY DEALER",
+      "transaction_type": "Pay In (Money In)"
+    }
+  ],
+  "all_categories": [
+    "others",
+    "consultancy",
+    "other1",
+    "Banking",
+    "Travel",
+    "stuff",
+    "Shopping",
+    "BMY DEALER",
+    "BMY Shop only"
+  ]
+}
